@@ -1,0 +1,56 @@
+---
+# Main styles
+---
+
+$pink = #FBDCDC;
+
+// Add your styles here
+.nav {
+    background-color: white;
+    height: 6rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 8px solid $pink;
+    padding: 0 4rem;
+}
+
+.nav__items {
+    list-style-type: none;
+}
+
+.nav__link {
+    display: inline-block;
+
+    a {
+        color: black;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        margin: 1rem;
+        text-decoration: none;
+        background-position: 0 0.6rem;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        background-position-y: 12px;
+        background-position-x: 0;
+        transition: background-position .08s ease-out;
+        background-image: linear-gradient(180deg,transparent 0,$pink 0);
+
+        &:hover {
+            background-image: linear-gradient(180deg,transparent 0,$pink 0);
+            background-position-y: 0;
+        }
+    }
+}
+
+.nav__link--active {
+    a {
+        background-color: $pink;
+    }
+}
+
+.nav__logo {
+
+}
