@@ -1,0 +1,17 @@
+// Responsive Breakpoint Mixin
+
+$breakpoints: (
+    small: 0,
+    medium: 640px,
+    large: 1024px,
+) !default;
+
+@mixin breakpoint($breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @if $value != null {
+        @media only screen and (min-width: $value) {
+            @content;
+        }
+    }
+}

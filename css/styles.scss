@@ -2,5 +2,9 @@
 # Main styles
 ---
 
+@import 'vendor/flexboxgrid';
+@import 'breakpoints';
+
+// Components
 @import 'nav';
 @import 'footer';

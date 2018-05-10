@@ -1,15 +1,15 @@
 <nav class="nav">
     <ul class="nav__items">
-        <li class="nav__link nav__link--active">
+        <li class="nav__link {% if page.active == 'home' %}nav__link--active{% endif %}">
             <a href="/">Home</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link {% if page.active == 'about' %}nav__link--active{% endif %}">
             <a href="/about">About</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link {% if page.active == 'work' %}nav__link--active{% endif %}">
             <a href="/work">Work</a>
         </li>
-        <li class="nav__link">
+        <li class="nav__link {% if page.active == 'contact' %}nav__link--active{% endif %}">
             <a href="/contact">Contact</a>
         </li>
     </ul>
