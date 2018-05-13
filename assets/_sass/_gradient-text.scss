@@ -1,0 +1,9 @@
+.gradient {
+  display: inline-block;
+  font-family: $lato;
+  font-weight: 900;
+  font-size: 2rem;
+  background: linear-gradient(to right, #9CF4EE, #f5aff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

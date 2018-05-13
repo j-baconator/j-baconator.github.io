@@ -1,10 +1,36 @@
 @import 'settings';
 
 .footer {
-    background-color: $pink;
-    height: 7rem;
+    background: linear-gradient(to right, #9CF4EE, #f5aff7);
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    i {
+        display: inline-block;
+    }
+}
+
+.footer__text {
+    font-family: $roboto;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer__icon {
+    font-size: 2rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: $black;
+    transition: all 250ms ease;
+
+    &:hover {
+        color: $white;
+    }
 }
