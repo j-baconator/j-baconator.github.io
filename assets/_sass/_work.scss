@@ -2,6 +2,7 @@
     position: relative;
     z-index: 1;
     width: 80%;
+    margin-bottom: 4rem;
 }
 
 .work__image {
@@ -13,13 +14,28 @@
 .work__frame {
     position: absolute;
     top: 20px;
-    width: 110%;
-    right: -8%;
-    height: 120%;
+    width: 105%;
+    right: -5%;
+    height: 100%;
     background-color: $white;
     // background-image: linear-gradient(-90deg, $white 0%, $pink 100%);
     border: 10px solid $pink;
     z-index: -1;
     transition: all 250ms ease-in-out;
     transition-property: top, right;
+    display: flex;
+    flex-direction: column;
+}
+
+.work__title {
+    text-align: center;
+    margin: 0 auto;
+    font-family: $roboto;
+    color: $black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
