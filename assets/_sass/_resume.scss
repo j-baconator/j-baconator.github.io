@@ -1,3 +1,8 @@
+.resume__desc {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
 .resume__label {
     font-size: 1.25rem;
     font-weight: 900;
@@ -31,6 +36,7 @@
 
     li {
         line-height: 1.6;
+        font-size: 1.1rem;
     }
 }
 
@@ -40,4 +46,9 @@
     font-family: $lato;
     margin: 1rem 0 0;
     display: inline-block;
+}
+
+.resume__detail-list {
+    line-height: 1.6;
+    font-size: 1.1rem;
 }

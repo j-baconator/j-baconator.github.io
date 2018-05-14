@@ -1,8 +1,12 @@
 .work__wrapper {
     position: relative;
     z-index: 1;
-    width: 80%;
+    width: 100%;
     margin-bottom: 4rem;
+
+    @include breakpoint(medium) {
+        width: 80%;
+    }
 }
 
 .work__image {
@@ -38,4 +42,16 @@
     text-transform: uppercase;
     font-size: 1rem;
     margin: 0.5rem 0;
+}
+
+.work__desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1rem 0 2rem 0;
+
+    @include breakpoint(medium) {
+        font-size: 1.5rem;
+        margin: 0 0 2rem 0;
+        line-height: 1.4;
+    }
 }
