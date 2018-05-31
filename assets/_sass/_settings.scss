@@ -1,11 +1,16 @@
 // Global settings for colors and typography
 
 // Colors
-$pink: #e9d3ff;
+$purple: #e9d3ff;
+$teal: #9CF4EE;
+
 $black: #000000;
 $charcoal: #333333;
 $grey: #999999;
 $white: #FFFFFF;
+
+$primary-color: $purple;
+$secondary-color: $teal;
 
 // Typography
 $lato: 'Lato', sans-serif;

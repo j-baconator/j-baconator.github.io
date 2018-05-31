@@ -1,29 +1,51 @@
+.resume__separator {
+    border-bottom: 2px solid $secondary-color;
+}
+
 .resume__desc {
-    font-size: 2rem;
+    font-size: 1.25rem;
     line-height: 1.2;
+    margin: 0.75rem 0 1rem 0;
+
+    @include breakpoint(medium) {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
 }
 
 .resume__label {
     font-size: 1.25rem;
     font-weight: 900;
     font-family: $roboto;
-    color: $pink;
+    color: $primary-color;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
+
+    @include breakpoint(medium) {
+        margin-top: 2rem;
+    }
 }
 
 .resume__item {
-    margin: 2rem 0;
+    margin: 1.5rem 0;
+
+    @include breakpoint(medium) {
+        margin: 2rem 0;
+    }
 }
 
 .resume__item-headline {
     font-family: $lato;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: $charcoal;
     margin-bottom: 0.25rem;
     margin-top: 0rem;
+
+    @include breakpoint(medium) {
+        font-size: 1.5rem;
+    }
 }
 
 .resume__item-date {
@@ -37,6 +59,7 @@
     li {
         line-height: 1.6;
         font-size: 1.1rem;
+        font-family: $lato;
     }
 }
 
