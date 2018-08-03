@@ -1,3 +1,5 @@
+@import 'settings';
+
 .post__header {
     height: 60vh;
     min-height: 400px;
@@ -9,11 +11,32 @@
     text-align: center;
 }
 
-.post__content {	
+.post__content {
+	padding: 3rem 0;
 }
 
 .post__info {
 	z-index: 1;
+}
+
+.post__author {
+	font-family: $open-sans;
+	font-size: 1rem;
+	font-style: italic;
+}
+
+.post__category {
+	color: $white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 3px solid $white;
+	padding-bottom: 0.35rem;
+	transition: padding-bottom 150ms ease-in-out;
+
+	&:hover {
+		padding-bottom: 0.15rem;
+	}
 }
 
 .hero-overlay {

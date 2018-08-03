@@ -19,21 +19,19 @@ active: blog
     <div class="row">
         <div class="col-sm-12">
             <div class="about">
-                <h1><span class="about__headline gradient gradient--large">Helping tech fit into your life.</span></h1>
-
                 <p>This is where the bloggy blog lives.</p>
 
-                <ul>
                   {% for post in site.posts %}
-                    <li>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
                         <a href="{{ post.url }}">
                             <div class="card">
+                                <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
                                 <h3>{{ post.title }}</h3>
                             </div>
                         </a>
-                    </li>
+                    </div>
                   {% endfor %}
-                </ul>
+
             </div>
         </div>
     </div>
