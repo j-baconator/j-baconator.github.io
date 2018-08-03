@@ -7,17 +7,27 @@
     font-weight: 300;
     text-align: center;
     box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @include breakpoint(medium) {
-        text-align: right;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding: 2rem 4rem;
+        height: 6rem;
+    }
+}
+
+.nav__logo {
+    float: left;
+
+    .nav__logo-img {
+        width: 11rem;
+        margin-bottom: 1rem;
     }
 }
 
 .nav__items {
+    float: right;
     list-style-type: none;
     padding: 0;
     margin: 0;
