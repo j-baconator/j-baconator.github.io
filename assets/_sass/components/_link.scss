@@ -19,15 +19,3 @@
         background: $secondary-color;
     }
 }
-
-.hero {
-    background: linear-gradient(#FF0056, #FFC5D5);
-    height: 60vh;
-    min-height: 400px;
-    color: $white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}

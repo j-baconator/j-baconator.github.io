@@ -31,6 +31,11 @@ $breakpoints: (
     large: 1024px,
 );
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 p {
     font-family: $noto-sans;
     font-weight: 300;

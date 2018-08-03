@@ -1,8 +1,10 @@
 ---
 layout: post
 title: What is a Technista?
+author: Julie Bacon
 date:   2015-11-17 11:00:00 -04:00
-categories: jekyll update
+categories: code design
+image: "/assets/img/posts/electronics.jpg"
 ---
 
 I’m Julie Bacon and I build things on the Internet. I've worked in the tech industry building best-in-class web applications for clients ranging from Capital One to CareerBuilder. Every day I get to design and develop solutions to problems where I am only limited by my own creativity. If I see something I don’t like in the world, I have the tools and power to try to change it, from anywhere in the world. In my opinion, there is nothing more inspiring than this.

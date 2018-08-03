@@ -6,8 +6,9 @@ active: blog
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Technista</h1>
-                <h2>A Lifestyle & Tech Blog</h2>
+                <h2 class="hero__subtitle">A Lifestyle & Tech Blog</h2>
+                <h1 class="hero__title">Technista</h1>
+                <div class="hero__emoji">👩‍💻👩🏻‍💻👩🏼‍💻👩🏽‍💻👩🏾‍💻👩🏿‍💻</div>
             </div>
         </div>
     </div>
@@ -16,16 +17,20 @@ active: blog
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
+        <div class="col-sm-12">
             <div class="about">
-                <h1><span class="about__headline gradient gradient--large">The blog</span><span class="about__wave">👋🏼</span></h1>
+                <h1><span class="about__headline gradient gradient--large">Helping tech fit into your life.</span></h1>
 
                 <p>This is where the bloggy blog lives.</p>
 
                 <ul>
                   {% for post in site.posts %}
                     <li>
-                      <a href="{{ post.url }}">{{ post.title }}</a>
+                        <a href="{{ post.url }}">
+                            <div class="card">
+                                <h3>{{ post.title }}</h3>
+                            </div>
+                        </a>
                     </li>
                   {% endfor %}
                 </ul>
