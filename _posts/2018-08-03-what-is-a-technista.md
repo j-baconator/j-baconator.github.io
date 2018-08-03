@@ -3,7 +3,7 @@ layout: post
 title: What is a Technista?
 author: Julie Bacon
 date:   2018-08-03 11:00:00 -04:00
-categories: code design
+categories: code
 image: "/assets/img/posts/electronics.jpg"
 ---
 

@@ -1,5 +1,15 @@
 @import 'settings';
 
+.post {
+	h2 {
+		margin-bottom: 0;
+		margin-top: 2rem;
+	}
+
+	a {
+		@extend .link;
+	}
+}
 .post__header {
     height: 60vh;
     min-height: 400px;
@@ -9,6 +19,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-size: cover;
+    background-position: center center;
 }
 
 .post__content {
@@ -26,17 +38,13 @@
 }
 
 .post__category {
-	color: $white;
+	color: $white !important;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
-	border-bottom: 3px solid $white;
 	padding-bottom: 0.35rem;
 	transition: padding-bottom 150ms ease-in-out;
-
-	&:hover {
-		padding-bottom: 0.15rem;
-	}
+	margin-top: 1rem !important;
 }
 
 .hero-overlay {
