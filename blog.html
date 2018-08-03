@@ -21,6 +21,14 @@ active: blog
                 <h1><span class="about__headline gradient gradient--large">The blog</span><span class="about__wave">👋🏼</span></h1>
 
                 <p>This is where the bloggy blog lives.</p>
+
+                <ul>
+                  {% for post in site.posts %}
+                    <li>
+                      <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
             </div>
         </div>
     </div>
