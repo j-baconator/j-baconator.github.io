@@ -1,0 +1,30 @@
+@import 'settings';
+
+.card__wrapper {
+	text-decoration: none;
+}
+
+.card {
+	margin: 2rem;
+	box-shadow: 4px 15px 48px -6px rgba(1,15,14,0.25);
+	border: 12px solid white;
+	transition: all 250ms ease-in-out;
+
+	&:hover {
+		transform: translateY(-4px);
+		box-shadow: 4px 15px 48px -6px rgba(1,15,14,0.4);
+	}
+}
+
+.card__title {
+	color: $charcoal;
+	text-align: center;
+	font-family: 'Lato';
+	font-size: 1.25rem;
+}
+
+.card__image {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
