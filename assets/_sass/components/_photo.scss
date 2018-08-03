@@ -7,13 +7,6 @@
     z-index: 1;
     margin-bottom: 2rem;
 
-    &:hover {
-        .photo__frame {
-            top: -35px;
-            right: -25px;
-        }
-    }
-
     @include breakpoint(large) {
         width: 80%;
         margin-bottom: 5rem;
@@ -32,6 +25,5 @@
         transition-property: top, right;
         top: 15px;
         right: 5px;
-        background-image: linear-gradient(to right, #9CF4EE, #f5aff7);
     }
 }

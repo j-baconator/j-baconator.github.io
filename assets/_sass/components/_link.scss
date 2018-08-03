@@ -1,5 +1,5 @@
 .link {
-    color: $secondary-color;
+    color: $primary-color;
     text-decoration: none;
     font-weight: 900;
 
@@ -16,6 +16,13 @@
 
     &:hover:after {
         width: 100%;
-        background: $primary-color;
+        background: $secondary-color;
     }
+}
+
+.hero {
+    background: linear-gradient(#FF0056, #FFC5D5);
+    height: 80vh;
+    min-height: 600px;
+    color: $white;
 }
