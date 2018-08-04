@@ -9,6 +9,10 @@
 	a {
 		@extend .link;
 	}
+
+	img {
+		max-width: 100%;
+	}
 }
 .post__header {
     height: 60vh;

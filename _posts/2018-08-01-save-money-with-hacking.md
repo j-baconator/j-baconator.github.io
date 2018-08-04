@@ -21,25 +21,31 @@ When my brother and his fiance were planning their wedding in California, I jump
 
 So whatever it is you’re celebrating, roll up your sleeves and get ready to get a lil crafty and a lil hacky.
 
-### Custom Coasters
-1. Looked through a bunch of cute cursive fonts on dafont and 1001. These sites allow you to type in for a preview.
+## Custom Coasters
+1. Looked through a bunch of cute cursive fonts on [dafont](https://www.dafont.com/) and [1001 fonts](https://www.1001fonts.com/). These sites allow you to type in for a preview.
 2. Download the font files
 3. If you have a mac, open Font Book
 4. Drag the font files into your font book.
 5. Choose your editing program of choice (I used photoshop)
-6. Choose a wholesale coaster printer (I used 4imprint)
+6. Choose a wholesale coaster printer (I ordered through [this supplier](https://www.4imprint.com/product/131166/Small-Cork-Coaster-Circle))
 7. Download the file, open in photoshop
 8. Design to your hearts content
 9. Upload the file to the producer and place your order.
 
-### Custom Table Signs
+### Add Fonts to Font Book
+![Mac Font Book](/assets/img/posts/fontbook.png)
+
+### Coaster Design in Photoshop
+![Custom Coaster Design Photoshop](/assets/img/posts/coaster1.png)
+
+## Custom Table Signs
 1. We’ve already got our sick fonts from earlier
 2. Open photoshop, new document the size of computer paper (I did 8 x 10)
 3. Type in those fancy words
 4. Choose a printing service i.e. Print at Home, Home Depot, Office Max
 5. Place your order, get cheap frames from the dollar store, done!
 
-### Custom Snapchat Filter
+## Custom Snapchat Filter
 1. Go to snapchat.com
 2. Double, Triple, Quadrouple check the event location and time
 3. Choose from a pre-designed filter or opt to make your own. You can add custom text, illustrations, etc.
@@ -47,10 +53,19 @@ So whatever it is you’re celebrating, roll up your sleeves and get ready to ge
 5. Drag on the map the perimeter for where you’d like the filter to apply. Snapchat will use the coordinate for this geolocation to only display this filter within that range. Don’t fuck this up!!
 6. Submit for approval
 
+### Snapchat Filter Design UI
+![Snapchat Filter Design UI](/assets/img/posts/snapchat-design.png)
+
+### Snapchat Date and Time UI
+![Snapchat Filter Date and Time UI](/assets/img/posts/snapchat-date.png)
+
+### Snapchat Geolocation UI
+![Snapchat Filter Geolocation UI](/assets/img/posts/snapchat-geolocation.png)
+
 ## Final Step:
-Enjoy the celebration and look like a hero, you just saved yourself, a friend, or family member lots of money and created something better - home-cafted, bespoke if you will, party essentials. 
+Enjoy the celebration, pop the champagne 🍾 and look like a hero. You just saved yourself, a friend, or family member lots of money and created something better - home-cafted, bespoke if you will, party essentials. 
 
 How are you using tech to plan awesome celebrations? I’d love to hear your tips or questions below.
 
-#HappyHacking
+#HappyHacking 🎉
 
