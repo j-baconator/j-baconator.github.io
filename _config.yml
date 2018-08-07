@@ -8,7 +8,7 @@ email: julieebacon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Julie. I'm an engineer based in Washington, D.C. with a passion for the web, empowering women in tech, and cooking. I work on the Internet at iStrategyLabs as a Front End Developer, building interactive experiences for some of the world's biggest brands.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.juliebacon.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: juliebaconator
 github_username:  j-baconator
 
