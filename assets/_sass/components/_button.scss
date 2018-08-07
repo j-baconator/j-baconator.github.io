@@ -1,0 +1,21 @@
+@import 'settings';
+
+.button {
+	border: 3px solid $hot-pink;
+	color: $hot-pink;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 1rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: all 250ms ease-in-out;
+	font-size: 0.85rem;
+	margin: 1rem 0;
+	display: inline-block;
+	
+	&:hover {
+		background-color: $hot-pink;
+		color: $white;
+	}
+}
+

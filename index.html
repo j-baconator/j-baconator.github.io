@@ -15,55 +15,52 @@ active: blog
 
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="about">
-                <div class="row">
-                    {% for post in site.posts %}
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <a href="{{ post.url }}" class="card__wrapper">
-                            <div class="card">
-                                <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
-                                <h3 class="card__title">{{ post.title }}</h3>
+    <div class="section">
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <a href="{{ post.url }}" class="card__wrapper">
+                    <div class="card">
+                        <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
+                        <h3 class="card__title">{{ post.title }}</h3>
 
-                                <!-- Post categories-->
-                                {% assign categories = post.categories %}
-                                {% for category in categories %}
-                                    <div class="card__category">
-                                        #{{ category }}
-                                    </div>
-                                {% unless forloop.last %}&nbsp;{% endunless %}
-                                {% endfor %}
+                        <!-- Post categories-->
+                        {% assign categories = post.categories %}
+                        {% for category in categories %}
+                            <div class="card__category">
+                                #{{ category }}
                             </div>
-                        </a>
+                        {% unless forloop.last %}&nbsp;{% endunless %}
+                        {% endfor %}
                     </div>
-                    {% endfor %}
-              </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 
-            <div class="section">
-              <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="/category/code" class="circle-wrapper">
-                        <div class="circle circle--code"></div>
-                        <h3>#Code</h3>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="/category/design" class="circle-wrapper">
-                        <div class="circle circle--design"></div>
-                        <h3>#Design</h3>
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                    <a href="/category/life-hacks" class="circle-wrapper">
-                        <div class="circle circle--life"></div>
-                        <h3>#Life Hacks</h3>
-                    </a>
-                </div>
-              </div>
-          </div>
-
+    <div class="section">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <a href="/category/code" class="circle-wrapper">
+                    <div class="circle circle--code"></div>
+                    <h3>#Code</h3>
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <a href="/category/design" class="circle-wrapper">
+                    <div class="circle circle--design"></div>
+                    <h3>#Design</h3>
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+                <a href="/category/life-hacks" class="circle-wrapper">
+                    <div class="circle circle--life"></div>
+                    <h3>#Life Hacks</h3>
+                </a>
             </div>
         </div>
     </div>
 </div>
+
+{% include subscribe_form.html %}
