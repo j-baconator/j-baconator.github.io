@@ -5,6 +5,8 @@ author: Julie Bacon
 date:   2018-08-03 11:00:00 -04:00
 categories: code
 image: "/assets/img/posts/electronics.jpg"
+twitter: "A pinch of pixels and a dash of code"
+pinterest: "A pinch of pixels and a dash of code"
 ---
 
 ## The Girl Behind the Code

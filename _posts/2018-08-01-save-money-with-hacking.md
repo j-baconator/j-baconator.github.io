@@ -5,6 +5,8 @@ author: Julie Bacon
 date:   2018-08-01 11:00:00 -04:00
 categories: [design, life hacks]
 image: "/assets/img/posts/wedding.jpg"
+twitter: "How I saved my brother hundreds by #hacking his #wedding"
+pinterest: "How I saved my brother hundreds by hacking his wedding."
 ---
 
 ## Celebratory Hacking 🥂
