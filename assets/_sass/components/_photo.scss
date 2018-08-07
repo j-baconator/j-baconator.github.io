@@ -1,5 +1,5 @@
 .photo {
-    width: 100%;
+    max-width: 100%;
 }
 
 .photo__wrapper {
@@ -8,7 +8,7 @@
     margin-bottom: 2rem;
 
     @include breakpoint(large) {
-        width: 80%;
+        max-width: 95%;
         margin-bottom: 5rem;
     }
 }
