@@ -1,28 +1,45 @@
 ---
-layout: page
-active: about
+layout: hero-page
+active: blog
 ---
-<div class="home-hero">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-            <div class="photo__wrapper">
-                <img src="assets/img/headshot.jpg" alt="Julie Bacon" class="photo">
-                <div class="photo__frame"></div>
+<div class="hero">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="hero__subtitle">A Lifestyle & Tech Blog</h2>
+                <h1 class="hero__title">Technista</h1>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6">
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
             <div class="about">
-                <h1><span class="about__headline gradient gradient--large">Hi, I'm Julie </span><span class="about__wave">👋🏼</span></h1>
+                <div class="row">
+                    {% for post in site.posts %}
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <a href="{{ post.url }}" class="card__wrapper">
+                            <div class="card">
+                                <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
+                                <h3 class="card__title">{{ post.title }}</h3>
 
-                <p>I'm an award-winning Front-End Engineer with a passion for building delightful experiences on the Internet. I'm an empathetic developer who champions progressive web development, accessibility, and writing maintainable, scalable code.</p>
+                                <!-- Post categories-->
+                                {% assign categories = post.categories %}
+                                {% for category in categories %}
+                                    <div class="card__category">
+                                        #{{ category }}
+                                    </div>
+                                {% unless forloop.last %}&nbsp;{% endunless %}
+                                {% endfor %}
+                            </div>
+                        </a>
+                    </div>
+                    {% endfor %}
+              </div>
 
-                <p>I'm currently a Web Developer at <a href="https://isl.co/" class="link" target="_blank">ISL</a> where I build digital experiences for some of the world's biggest brands. My clients include Service Year Alliance, Smithsonian National Air &amp; Space Museum, Capital One and CareerBuilder.</p>
-
-                <p>In 2018, I recieved the <a href="http://dcfemtech.com/awards.html" class="link" target="_blank">DCFemTech Award</a>, which recognizes Power Women in Code, Design and Data.</p>
-
-                <p>I'm available for speaking engagements on Front-End Development, Diversity and Inclusion in Tech.</p>
-
-                <p>When I'm not coding, you can find me hiking trails around DC 🗻, cooking 👩🏼‍🍳, or tending to my patio garden. 🌱</p>
             </div>
         </div>
     </div>

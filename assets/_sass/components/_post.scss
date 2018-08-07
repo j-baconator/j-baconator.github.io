@@ -23,8 +23,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
+    transition: background-size 1s ease-in-out;
 }
 
 .post__content {
@@ -63,7 +64,7 @@
     right: 0;
     bottom: 0;
     z-index: 0;
-    background: rgba(255,0,86,0.7); //Adjust the opacity of the color by changing the last value
+    background: rgba(255,0,86,0.3); //Adjust the opacity of the color by changing the last value
   }
 }
 
