@@ -2,10 +2,32 @@
 layout: default
 ---
 
-<div class="blog list">
-    <h1>Filed Under <small>#{{ page.tag }}</small></h1>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+        	<h1>A pinch of #{{ page.tag }}</h1>
 
-    {% for post in site.categories[page.tag] %}
-        <h1>{{ post.title }}</h1>
-    {% endfor %}
+            <div class="row">
+                {% for post in site.categories[page.tag] %}
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <a href="{{ post.url }}" class="card__wrapper">
+                        <div class="card">
+                            <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
+                            <h3 class="card__title">{{ post.title }}</h3>
+
+                            <!-- Post categories-->
+                            {% assign categories = post.categories %}
+                            {% for category in categories %}
+                                <div class="card__category">
+                                    #{{ category }}
+                                </div>
+                            {% unless forloop.last %}&nbsp;{% endunless %}
+                            {% endfor %}
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+          </div>
+      </div>
+  </div>
 </div>

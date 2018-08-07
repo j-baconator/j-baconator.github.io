@@ -10,6 +10,7 @@
 	border: 12px solid white;
 	transition: all 250ms ease-in-out;
 	overflow: hidden;
+	text-align: center;
 
 	&:hover {
 		box-shadow: 4px 15px 48px -6px rgba(1,15,14,0.4);
@@ -43,7 +44,7 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 300;
-	text-align: center;
-	padding-bottom: 1rem;
 	font-size: 0.9rem;
+	display: inline-block;
+	padding-bottom: 1rem;
 }

@@ -3,7 +3,7 @@ layout: post
 title: How I Saved My Brother Hundreds by Hacking His Wedding
 author: Julie Bacon
 date:   2018-08-01 11:00:00 -04:00
-categories: design
+categories: [design, life hacks]
 image: "/assets/img/posts/wedding.jpg"
 ---
 
