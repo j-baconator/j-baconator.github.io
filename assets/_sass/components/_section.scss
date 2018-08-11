@@ -7,7 +7,52 @@
 }
 
 .subscribe-form {
-	background-color: #eee;
+	background-color: $primary-color;
+	color: $white;
+}
+
+form {
+	padding: 0 !important;
+}
+
+input[type="email"] {
+	background-color: $primary-color !important;
+	border: none !important;
+	border-bottom: 1px solid $white !important;
+	border-radius: 0 !important;
+}
+
+input[type="email"]::placeholder {
+	color: $white !important;
+	font-family: $open-sans !important;
+	font-weight: bold !important;
+}
+
+.subscribe-label {
+	font-family: $open-sans;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1rem !important;
+}
+
+.subscribe-button {
+	background-color: $primary-color;
+	height: auto;
+	border: 2px solid white !important;
+	padding: 1rem;
+	margin: 0 !important;
+	color: $white;
+	font-family: $open-sans;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 0 !important;
+}
+
+#mce-responses,
+.response {
+	margin: 0 !important;
+	padding: 0 !important;
 }
 
 /*.mc-field-group {

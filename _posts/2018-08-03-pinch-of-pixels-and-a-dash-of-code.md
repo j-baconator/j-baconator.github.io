@@ -11,7 +11,7 @@ pinterest: "A pinch of pixels and a dash of code"
 
 ## The Girl Behind the Code
 
-Hi World 👋 I’m [Julie Bacon](/about) and I build things on the Internet. I work in the tech industry building best-in-class web applications for Fortune500 companies to startups to nonprofits. I fell into coding by accident when I was 11 years old playing Neopets and making my Myspace layouts against my mother's wishes. The Internet was so exciting back then, and it continues to excite and inspire me years later. I went on to study Computer Science at [Boston College](https://www.bc.edu/bc-web/schools/mcas/departments/computer-science/people/julie-bacon.html), and pursue a career in Front-End development.
+Hi World 👋 I’m [Julie Bacon](/about) and I build things on the Internet. I work in the tech industry building best-in-class web applications for Fortune500 companies to startups to nonprofits. I fell into coding by accident when I was 11 years old playing Neopets 🦄 and making my Myspace layouts against my mother's wishes. The Internet was so exciting back then, and it continues to excite and inspire me years later. I went on to study Computer Science at [Boston College](https://www.bc.edu/bc-web/schools/mcas/departments/computer-science/people/julie-bacon.html), and pursue a career in Front-End development.
 
 ### Technology, in Code Form
 Every day I get to design and develop solutions to problems where I am only limited by my own creativity. If I see something I don’t like in the world, I have the tools and power to try to change it. If I see something that I wish existed in the world, I have the tools and power to create it. In my opinion, there is nothing more exciting than using technology as an instrument of change.

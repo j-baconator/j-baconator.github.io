@@ -1,8 +1,8 @@
 @import 'settings';
 
 .button {
-	border: 3px solid $hot-pink;
-	color: $hot-pink;
+	border: 3px solid $primary-color;
+	color: $primary-color;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -14,7 +14,7 @@
 	display: inline-block;
 	
 	&:hover {
-		background-color: $hot-pink;
+		background-color: $primary-color;
 		color: $white;
 	}
 }

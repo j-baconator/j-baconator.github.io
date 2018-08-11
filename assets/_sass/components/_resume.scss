@@ -16,7 +16,7 @@
 .resume__label {
     font-size: 1.25rem;
     font-weight: 900;
-    font-family: $roboto;
+    font-family: $abril;
     color: $primary-color;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -37,7 +37,7 @@
 }
 
 .resume__item-headline {
-    font-family: $lato;
+    font-family: $open-sans;
     font-size: 1.25rem;
     color: $charcoal;
     margin-bottom: 0.25rem;
@@ -59,14 +59,14 @@
     li {
         line-height: 1.6;
         font-size: 1.1rem;
-        font-family: $lato;
+        font-family: $open-sans;
     }
 }
 
 .resume__item-detail {
     font-size: 1.15rem;
     font-weight: 600;
-    font-family: $lato;
+    font-family: $open-sans;
     margin: 1rem 0 0;
     display: inline-block;
 }

@@ -5,12 +5,11 @@
 }
 
 .card {
-	margin: 2rem;
 	box-shadow: 4px 15px 48px -6px rgba(1,15,14,0.25);
-	border: 12px solid white;
+	border: 20px solid white;
 	transition: all 250ms ease-in-out;
 	overflow: hidden;
-	text-align: center;
+	margin: 1rem 0;
 
 	&:hover {
 		box-shadow: 4px 15px 48px -6px rgba(1,15,14,0.4);
@@ -24,14 +23,15 @@
 
 .card__title {
 	color: $charcoal;
-	text-align: center;
-	font-family: $playfair;
-	font-size: 1.25rem;
+	font-family: $abril;
+	font-size: 1.35rem;
 	text-decoration: none;
 	margin-bottom: 0.5rem;
 }
 
 .card__image {
+	height: 12rem;
+	background-size: cover;
     margin: 0 auto;
     position: relative;
     max-width: 100%;
@@ -39,12 +39,21 @@
 }
 
 .card__category {
-	font-family: $roboto;
-	color: $hot-pink;
+	font-family: $abril;
+	color: $cotton-candy;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 300;
 	font-size: 0.9rem;
 	display: inline-block;
 	padding-bottom: 1rem;
+}
+
+.card__more {
+	color: $primary-color;
+	font-family: $open-sans;
+	font-size: 0.9rem;
+	font-weight: 900;
+	letter-spacing: 1px;
+	line-height: 1;
 }
