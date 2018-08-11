@@ -15,7 +15,13 @@ layout: default
 	 						{{ page.author }} | {{ page.date | date: '%B %d, %Y' }}
 	 					</h2>
 
-				 		<!-- Post categories-->
+	        			{% include social.html %}
+
+	 					{{ content }}
+
+	 					<div class="post__seperator"></div>
+
+	 					<!-- Post categories-->
 						{% assign categories = page.categories %}
 						{% for category in categories %}
 							<a href="{{site.baseurl}}/category/{{category|replace: " ", "-" }}" class="post__category">
@@ -23,10 +29,6 @@ layout: default
 							</a>
 						{% unless forloop.last %}&nbsp;{% endunless %}
 						{% endfor %}
-
-	        			{% include social.html %}
-
-	 					{{ content }}
 	 				</div>
  				</div>
  			</div>

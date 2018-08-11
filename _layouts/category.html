@@ -14,7 +14,7 @@ layout: default
 	    <div class="col-sm-12 col-md-6 col-lg-4">
 	        <a href="{{ post.url }}" class="card__wrapper">
 	            <div class="card">
-	                <img src="{{ post.image }}" class="card__image" alt="{{ post.title }}">
+	                <div style="background-image: url('{{ post.image }}');" class="card__image" alt="{{ post.title }}"></div>
 	                <h3 class="card__title">{{ post.title }}</h3>
 
 	                <!-- Post categories-->
@@ -25,6 +25,8 @@ layout: default
 	                    </div>
 	                {% unless forloop.last %}&nbsp;{% endunless %}
 	                {% endfor %}
+
+	                <div class="card__more">Read More</div>
 	            </div>
 	        </a>
 	    </div>

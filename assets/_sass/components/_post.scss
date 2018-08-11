@@ -3,8 +3,13 @@
 .post {
   margin-bottom: 3rem;
 
-  	h1, h2, h3, h4, h5, h6 {
+  	h1 {
+  		line-height: 1.4;
+  	}
+
+  	h2, h3, h4, h5, h6 {
   		font-family: $open-sans;
+  		font-weight: 800;
   	}
 
 	h2, h3 {
@@ -25,6 +30,10 @@
 		li {
 			margin-bottom: 1rem;
 		}
+	}
+
+	.social-block {
+		margin: 2rem 0;
 	}
 }
 .post__header {
@@ -57,16 +66,41 @@
 
 .post__author {
 	font-family: $open-sans;
-	font-size: 1rem;
-	font-style: italic;
+	font-size: 0.9rem;
+	font-weight: 300 !important;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 1rem 0 !important;
+}
+
+.post__seperator {
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid $light-grey;
+	margin: 2rem 0 1rem 0;
 }
 
 .post__category {
 	color: $white !important;
+	background-color: $primary-color;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
-	padding-bottom: 0.35rem;
-	transition: padding-bottom 150ms ease-in-out;
-	margin-top: 1rem !important;
+	font-weight: 400 !important;
+	font-size: 0.85rem;
+	letter-spacing: 1px;
+	padding: 0.5rem 1.25rem;
+	line-height: 1;
+	border-radius: 20px;
+	margin: 1rem 0;
+	transition: all 150ms ease-in-out;
+	border: 1px solid $primary-color;
+
+	&:after {
+		content: none !important;
+	}
+
+	&:hover {
+		color: $primary-color !important;
+		background-color: $white;
+	}
 }

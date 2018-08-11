@@ -109,8 +109,7 @@ This command tells the computer to run the jekyll files. The --watch flag does e
 
 The server will continue running and watching your changes as you develop. To quit the server, press control-c.
 
-When you're ready to start it up again, simply run:
-`bundle exec jekyll serve --watch`
+When you're ready to start it up again, simply run the serve command above.
 
 View your project running locally by opening up your web browser and going to
 _localhost:4000_ You'll see the basic Jekyll site with sample posts.
