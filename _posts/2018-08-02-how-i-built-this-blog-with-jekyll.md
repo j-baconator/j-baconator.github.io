@@ -25,7 +25,7 @@ I assessed various [static blog frameworks](https://www.netlify.com/blog/2017/05
 
 ## TLDR; Get Set Up in 4 Lines of Code
 
-I set up my GitHub repository, which is named after my GitHub username [j-bacaonator.github.io](https://github.com/j-baconator/j-baconator.github.io)
+I set up my GitHub repository, which is named after my GitHub username [j-bacaonator.github.io](https://github.com/baconjulie/baconjulie.github.io)
 
 In my terminal I run the following commands:
 1. `gem install bundler jekyll`
@@ -63,7 +63,7 @@ To run this project locally and to set up Jekyll, we'll need to install a few re
 2. Click "New Repository" button on Github sidebar
 ![New Repository on Github](/assets/img/posts/new-repo-1.png)
 
-3. Give your repository a new name. For a portfolio site, you can use `your-username.github.io` for free hosting. I.e. my portfolio lives at a repo called j-baconator.github.io. Don't check the box to initialize with a README.
+3. Give your repository a new name. For a portfolio site, you can use `your-username.github.io` for free hosting. I.e. my portfolio lives at a repo called baconjulie.github.io. Don't check the box to initialize with a README.
 ![Name your repository](/assets/img/posts/new-repo-2.png)
 
 
